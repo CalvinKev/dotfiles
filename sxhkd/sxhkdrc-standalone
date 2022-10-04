@@ -1,0 +1,23 @@
+# scrot
+super + p
+	scrot
+
+# maim
+super + v
+	maim --select | xclip -selection clipboard -t image/png
+
+# chromium
+super + o
+	chromium
+
+# steam
+super + y
+	steam
+
+# htop
+super + n
+	alacritty -e htop
+
+# discord
+super + j
+	discord
